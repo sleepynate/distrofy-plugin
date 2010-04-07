@@ -1,0 +1,29 @@
+#!/bin/bash
+#
+# (c) Nathan Dotz, 2008
+# nathan.dotz@gmail.com
+#
+# This is distributed under the GPL v3
+# Read it at http://www.fsf.org/licensing/licenses/gpl.html
+#
+#
+# Here's the deal. To install, you'll need to
+# make the distrofy.py plugin executable, and
+# put it in your gimp plugins directory.
+# then, copy the distrobution header png files
+# to a .distrofy_plugin directory in your home
+# directory... or ~/.distrofy_plugin
+#
+# Here is the list of commands that worked on a
+# stock ubuntu feisty machine. Depending where your
+# distro puts things, you will need to change
+# these.
+#
+
+chmod +x distrofy.py batchDistrofy.py \
+    getHotBabe.py runit.sh set_wallpaper.sh;
+sudo cp distrofy.py batchDistrofy.py /usr/lib/gimp/2.0/plug-ins/ ;
+mkdir -p $HOME/.distrofy_plugin/images 2> /dev/null ;
+cp images/*.png $HOME/.distrofy_plugin/images/ ;
+cp runit.sh getHotBabe.py set_wallpaper.sh \
+    $HOME/.distrofy_plugin/ ;
