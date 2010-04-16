@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #
 # gethotbabe.py
-# Copyright 2008 Nathan Dotz <nathan.dotz@gmail.com>
+# Copyright 2008 Nathan Dotz nathan (dot) dotz (at) gmail (dot) com
 #
 # fetches a random hot babe wallpaper from http://onlysexywallpapers.com
 #
