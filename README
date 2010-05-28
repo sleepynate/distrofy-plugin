@@ -1,15 +1,21 @@
+README:
+
+distrofy-plugin is a GPLv3 software plugin for the Gimp. It comes with related scripts covered by the GPLv3 whether marked by the license or not. Don't believe me? Yer itchin' fer a fight.
+
+http://identi.ca/sleepynate
+nathan (dot) dotz (at) gmail (dot) com
+
+
 Status:
 
-The distrofy.py script itself is still functional as of Gimp 2.4,
-but is untested with Gimp 2.6
+The distrofy.py script itself is still functional as of Gimp 2.4.
+It has also been alleged to work on 2.6.
 
 batchDistrofy was intended to allow for command-line processing of
  images in the style of distrofy. 
 batchDistrofy development has halted due to some lacking documentation on
 how to interface python-fu with the gimp's backend from the command line. 
-(my understanding of the docs states that the native list-like script-fu 
-should be used to load the python-fu from the command line, and it doesn't 
-seem to work as shown on gimp.org)
+the automation of gimp is intended to be done in scheme, and I don't feel like rewriting it at the moment.
 
 included is a getHotBabe.py script to grab you a random girl off a website
 that... well it has pictures of hot girls.

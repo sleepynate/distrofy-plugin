@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #
 # (c) Nathan Dotz, 2008
-# nathan.dotz@gmail.com
+# nathan (dot) dotz (at) gmail (dot) com
 #
 # This is distributed under the GPL v3
 # Read it at http://www.fsf.org/licensing/licenses/gpl.html
