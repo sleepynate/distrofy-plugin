@@ -7,5 +7,5 @@
 # Read it at http://www.fsf.org/licensing/licenses/gpl.html
 #
 ~/.distrofy_plugin/getHotBabe.py
-gimp -idfb '(python-fu-batchDistrofy 1 fedora)''(gimp-quit 1)'
+gimp -i --no-data --no-fonts -b '(python-fu-batchDistrofy 1 fedora)' -b  '(gimp-quit 0)'
 ~/.distrofy_plugin/set_wallpaper.sh

@@ -35,6 +35,7 @@ def batchDistrofy(distroToUse):
         0.85, 0, 1, 0, "Made with the Distrofy Gimp Plug-in, by Nathan Dotz",
         3, 1, 0, 1)
 
+
 register(
     "batchDistrofy",
     "Batch Processor for Distrofy",
